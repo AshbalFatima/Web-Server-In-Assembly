@@ -63,19 +63,6 @@ _start
 
 ---
 
-## 🧪 Example
-
-You can use `curl` for testing.
-
-**POST Example:**
-```bash
-curl -X POST http://localhost:80/hello.txt -d "This is test content"
-```
-**GET Example:**
-```bash
-curl http://localhost:80/hello.txt
-```
-
 ## 🧵 Key Assembly Snippets
 ### Accept + Fork:
 ```asm
