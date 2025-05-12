@@ -26,6 +26,15 @@ This project is a low-level implementation of a web server written entirely in *
 
 ---
 
+## ⚠ Limitations (By Design)
+- Does not support persistent connections (keep-alive).
+- Only supports HTTP 1.0.
+- No MIME type detection — serves everything as plain text.
+- No request size limits or timeout handling.
+- Not production-grade — built for learning and performance tracing.
+
+---
+
 ## 🧾 Structure Overview
 
 _start  
